@@ -28,4 +28,4 @@ ADD fluent.conf /etc/fluent/fluent.conf
 
 WORKDIR ${HOME}
 
-CMD ["fluentd"]
+CMD ["fluentd -vv"]
